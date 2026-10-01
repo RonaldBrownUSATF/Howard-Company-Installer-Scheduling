@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = { title: "Book a time", description: "Pick a time that works for you." };
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
