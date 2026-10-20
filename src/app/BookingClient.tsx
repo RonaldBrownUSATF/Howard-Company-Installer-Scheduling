@@ -300,7 +300,7 @@ function Intro(p: Props & { children?: React.ReactNode }) {
       {p.description && <p className="muted" style={{ whiteSpace: "pre-wrap" }}>{p.description}</p>}
       <div className="meta">
         <span>{p.slotMinutes} minutes</span>
-        {p.requireApproval && <span>Requests are confirmed by email</span>}
+        {p.requireApproval && <span>Requests are confirmed by email, appointments are not limited to 30 minutes.</span>}
       </div>
       {p.children}
     </header>
